@@ -1,0 +1,181 @@
+/* line 9, ../../_sass/resume.scss */
+.clear {
+  clear: both;
+}
+
+/* line 12, ../../_sass/resume.scss */
+a {
+  text-decoration: underline;
+  color: black;
+}
+/* line 15, ../../_sass/resume.scss */
+a:visited {
+  color: #000055;
+}
+
+/* line 19, ../../_sass/resume.scss */
+a.link {
+  color: blue;
+}
+
+/* line 22, ../../_sass/resume.scss */
+li ul li {
+  page-break-inside: avoid;
+}
+
+/* line 25, ../../_sass/resume.scss */
+body {
+  font: 16px Garamond,serif;
+  padding: 0.5em 2em;
+}
+
+/* line 29, ../../_sass/resume.scss */
+h1, h2, h3 {
+  margin: 0.5em 0;
+  page-break-after: avoid;
+}
+
+/* line 33, ../../_sass/resume.scss */
+h2, h3 {
+  font-weight: normal;
+}
+
+/* line 36, ../../_sass/resume.scss */
+h1 {
+  font-size: 1.2em;
+}
+
+/* line 39, ../../_sass/resume.scss */
+h2 {
+  font-size: 1.1em;
+}
+
+/* line 42, ../../_sass/resume.scss */
+h3 {
+  font-size: 1em;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+/* line 47, ../../_sass/resume.scss */
+h1 + p, h2 + p, h3 + p {
+  margin-top: 0;
+}
+
+/* line 50, ../../_sass/resume.scss */
+ul {
+  margin: 0;
+  padding-left: 1em;
+}
+
+/* line 54, ../../_sass/resume.scss */
+li {
+  list-style: none outside none;
+}
+
+/* line 57, ../../_sass/resume.scss */
+ul.desc {
+  padding-left: 2em;
+}
+
+/* line 60, ../../_sass/resume.scss */
+ul.circle {
+  list-style-type: circle;
+}
+
+/* line 63, ../../_sass/resume.scss */
+.left {
+  float: left;
+  width: 200px;
+}
+
+/* line 67, ../../_sass/resume.scss */
+.right {
+  float: right;
+  width: 200px;
+}
+
+/* line 71, ../../_sass/resume.scss */
+.center {
+  margin: 0 auto;
+  width: 200px;
+}
+
+/* line 75, ../../_sass/resume.scss */
+.resume {
+  margin: 0 auto;
+  max-width: 50em;
+}
+/* line 79, ../../_sass/resume.scss */
+.resume .info {
+  border-bottom: 1px solid #CCCCCC;
+  padding: 1em 0 0 0;
+  text-align: center;
+}
+/* line 84, ../../_sass/resume.scss */
+.resume .info p {
+  margin: 0.3em;
+}
+/* line 88, ../../_sass/resume.scss */
+.resume .info .name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+/* line 93, ../../_sass/resume.scss */
+.resume .info .contact {
+  width: 100%;
+}
+/* line 97, ../../_sass/resume.scss */
+.resume .info .contact .email {
+  background: none repeat scroll 0 0 #EEEEEE;
+  display: inline-block;
+  margin: 0.4em;
+  padding: 0.2em;
+}
+/* line 105, ../../_sass/resume.scss */
+.resume .info .contact .address {
+  text-align: right;
+  margin-top: 10px;
+}
+/* line 116, ../../_sass/resume.scss */
+.resume .experience .job {
+  margin-bottom: 10px;
+}
+/* line 120, ../../_sass/resume.scss */
+.resume .experience .location {
+  float: right;
+}
+/* line 125, ../../_sass/resume.scss */
+.resume .experience .projects li {
+  margin: 5px 0;
+}
+/* line 128, ../../_sass/resume.scss */
+.resume .experience .projects .times {
+  font-size: 0.8em;
+  font-weight: normal;
+  vertical-align: middle;
+}
+/* line 135, ../../_sass/resume.scss */
+.resume .experience .projects .items li {
+  list-style-type: disc;
+}
+/* line 142, ../../_sass/resume.scss */
+.resume .competencies ul li, .resume .affiliations li, .resume .languages li {
+  background: none repeat scroll 0 0 #EEEEEE;
+  display: inline-block;
+  margin: 0.4em;
+  padding: 0.2em;
+}
+/* line 145, ../../_sass/resume.scss */
+.resume .competencies ul li.first, .resume .affiliations li.first, .resume .languages li.first {
+  background-color: #FFF;
+}
+/* line 150, ../../_sass/resume.scss */
+.resume .affiliations li, .resume .conferences li {
+  padding: 0.5em;
+}
+/* line 153, ../../_sass/resume.scss */
+.resume .affiliations .location, .resume .conferences .location {
+  color: #444444;
+  font-size: 0.9em;
+}
