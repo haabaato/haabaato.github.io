@@ -1,209 +1,129 @@
-/* line 11, ../../_sass/resume.scss */
 .clear {
-  clear: both;
-}
+  clear: both; }
 
-/* line 14, ../../_sass/resume.scss */
 a {
   text-decoration: underline;
-  color: black;
-}
-/* line 17, ../../_sass/resume.scss */
-a:visited {
-  color: #000055;
-}
+  color: black; }
+  a:visited {
+    color: #000055; }
 
-/* line 21, ../../_sass/resume.scss */
 a.link {
-  color: blue;
-}
+  color: blue; }
 
-/* line 24, ../../_sass/resume.scss */
 li ul li {
-  page-break-inside: avoid;
-}
+  page-break-inside: avoid; }
 
-/* line 27, ../../_sass/resume.scss */
 body {
   font: 16px Garamond,serif;
-  padding: 0.5em 2em;
-}
+  padding: 0.5em 2em; }
 
-/* line 31, ../../_sass/resume.scss */
 h1, h2, h3 {
   margin: 0.5em 0;
-  page-break-after: avoid;
-}
+  page-break-after: avoid; }
 
-/* line 35, ../../_sass/resume.scss */
 h1 {
-  margin-top: 20px;
-}
+  margin-top: 20px; }
 
-/* line 41, ../../_sass/resume.scss */
 h2 {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
-/* line 44, ../../_sass/resume.scss */
 h3 {
-  font-weight: normal;
-}
+  font-weight: normal; }
 
-/* line 47, ../../_sass/resume.scss */
 h4 {
   margin: 0;
-  padding-left: 1em;
-}
+  padding-left: 1em; }
 
-/* line 51, ../../_sass/resume.scss */
 h1 {
-  font-size: 1.2em;
-}
+  font-size: 1.2em; }
 
-/* line 54, ../../_sass/resume.scss */
 h2 {
-  font-size: 1.1em;
-}
+  font-size: 1.1em; }
 
-/* line 57, ../../_sass/resume.scss */
 h3 {
   font-size: 1em;
   font-style: italic;
-  margin-bottom: 5px;
-}
+  margin-bottom: 5px; }
 
-/* line 62, ../../_sass/resume.scss */
 h1 + p, h2 + p, h3 + p {
-  margin-top: 0;
-}
+  margin-top: 0; }
 
-/* line 65, ../../_sass/resume.scss */
 p {
-  margin: 0;
-}
+  margin: 0; }
 
-/* line 68, ../../_sass/resume.scss */
 ul {
   margin: 0;
-  padding-left: 1em;
-}
+  padding-left: 1em; }
 
-/* line 72, ../../_sass/resume.scss */
 li {
-  list-style: none outside none;
-}
+  list-style: none outside none; }
 
-/* line 78, ../../_sass/resume.scss */
 ul.circle {
-  list-style-type: circle;
-}
+  list-style-type: circle; }
 
-/* line 81, ../../_sass/resume.scss */
 .left {
   float: left;
-  width: 200px;
-}
+  width: 200px; }
 
-/* line 85, ../../_sass/resume.scss */
 .right {
   float: right;
-  width: 200px;
-}
+  width: 200px; }
 
-/* line 89, ../../_sass/resume.scss */
 .center {
   margin: 0 auto;
-  width: 200px;
-}
+  width: 200px; }
 
-/* line 93, ../../_sass/resume.scss */
 .resume {
   margin: 0 auto;
-  max-width: 50em;
-}
-/* line 97, ../../_sass/resume.scss */
-.resume .info {
-  border-bottom: 1px solid #CCCCCC;
-  padding: 1em 0 0 0;
-  text-align: center;
-}
-/* line 102, ../../_sass/resume.scss */
-.resume .info p {
-  margin: 0.3em;
-}
-/* line 106, ../../_sass/resume.scss */
-.resume .info .name {
-  font-size: 1.2em;
-  font-weight: bold;
-}
-/* line 111, ../../_sass/resume.scss */
-.resume .info .contact {
-  width: 100%;
-}
-/* line 114, ../../_sass/resume.scss */
-.resume .info .contact .email {
-  background: none repeat scroll 0 0 #EEEEEE;
-  display: inline-block;
-  margin-right: 0.2em;
-  margin-bottom: 0.4em;
-  padding: 0.2em;
-}
-/* line 122, ../../_sass/resume.scss */
-.resume .info .contact .address {
-  text-align: right;
-  margin-top: 10px;
-}
-/* line 133, ../../_sass/resume.scss */
-.resume .experience .job {
-  margin-bottom: 10px;
-}
-/* line 137, ../../_sass/resume.scss */
-.resume .experience .location {
-  float: right;
-}
-/* line 142, ../../_sass/resume.scss */
-.resume .experience .projects li {
-  margin: 5px 0;
-}
-/* line 145, ../../_sass/resume.scss */
-.resume .experience .projects .times {
-  font-size: 0.8em;
-  font-weight: normal;
-  vertical-align: middle;
-}
-/* line 152, ../../_sass/resume.scss */
-.resume .experience .projects .items li {
-  list-style-type: disc;
-}
-/* line 159, ../../_sass/resume.scss */
-.resume .competencies ul {
-  padding-left: 0;
-}
-/* line 162, ../../_sass/resume.scss */
-.resume .competencies li.category {
-  float: left;
-  padding-right: 10px;
-  margin-right: 10px;
-}
-/* line 171, ../../_sass/resume.scss */
-.resume .competencies ul li, .resume .affiliations li, .resume .languages li {
-  background: none repeat scroll 0 0 #EEEEEE;
-  display: inline-block;
-  margin-right: 0.2em;
-  margin-bottom: 0.4em;
-  padding: 0.2em;
-}
-/* line 174, ../../_sass/resume.scss */
-.resume .competencies ul li.first, .resume .affiliations li.first, .resume .languages li.first {
-  background-color: #FFF;
-}
-/* line 179, ../../_sass/resume.scss */
-.resume .affiliations li, .resume .conferences li {
-  padding: 0.5em;
-}
-/* line 182, ../../_sass/resume.scss */
-.resume .affiliations .location, .resume .conferences .location {
-  color: #444444;
-  font-size: 0.9em;
-}
+  max-width: 50em; }
+  .resume .info {
+    border-bottom: 1px solid #CCCCCC;
+    padding: 1em 0 0 0;
+    text-align: center; }
+    .resume .info p {
+      margin: 0.3em; }
+    .resume .info .name {
+      font-size: 1.2em;
+      font-weight: bold; }
+    .resume .info .contact {
+      width: 100%; }
+      .resume .info .contact .email {
+        background: none repeat scroll 0 0 #EEEEEE;
+        display: inline-block;
+        margin-right: 0.2em;
+        margin-bottom: 0.4em;
+        padding: 0.2em; }
+      .resume .info .contact .address {
+        text-align: right;
+        margin-top: 10px; }
+  .resume .experience .job {
+    margin-bottom: 10px; }
+  .resume .experience .location {
+    float: right; }
+  .resume .experience .projects li {
+    margin: 5px 0; }
+  .resume .experience .projects .times {
+    font-size: 0.8em;
+    font-weight: normal;
+    vertical-align: middle; }
+  .resume .experience .projects .items li {
+    list-style-type: disc; }
+  .resume .competencies ul {
+    padding-left: 0; }
+  .resume .competencies li.category {
+    float: left;
+    padding-right: 10px;
+    margin-right: 10px; }
+  .resume .competencies ul li, .resume .affiliations li, .resume .languages li {
+    background: none repeat scroll 0 0 #EEEEEE;
+    display: inline-block;
+    margin-right: 0.2em;
+    margin-bottom: 0.4em;
+    padding: 0.2em; }
+  .resume .competencies ul li.first, .resume .affiliations li.first, .resume .languages li.first {
+    background-color: #FFF; }
+  .resume .affiliations li, .resume .conferences li {
+    padding: 0.5em; }
+  .resume .affiliations .location, .resume .conferences .location {
+    color: #444444;
+    font-size: 0.9em; }

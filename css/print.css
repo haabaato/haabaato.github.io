@@ -2,17 +2,10 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
 @media print {
-  /* line 7, ../../_sass/print.scss */
   .no-print, .no-print * {
-    display: none !important;
-  }
-}
+    display: none !important; } }
 @page {
-  margin: 0.5in 0;
-}
-
-/* line 14, ../../_sass/print.scss */
+  margin: 0.5in 0; }
 body {
   font: 12px Garamond,serif;
-  padding: 0.5em 2em;
-}
+  padding: 0.5em 2em; }
