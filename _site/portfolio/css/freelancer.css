@@ -444,3 +444,7 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+.modal-dialog {
+    z-index: 1050; /* added by H.S. */
+}
